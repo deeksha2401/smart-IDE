@@ -27,6 +27,7 @@
     "link": "ln -s ~/../lib/node_modules .",
     "front": "react-scripts start",
     "start": "npm run build && npm run server",
+    "postinstall": "npx update-browserslist-db@latest",
     "build": "CI=false react-scripts --max_old_space_size=4096 build",
     "b": "CI=false react-scripts build",
     "dev": "nodemon index.js",

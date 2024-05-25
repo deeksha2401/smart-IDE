@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const app = initializeApp({
-	apiKey: "AIzaSyAkZDeE0a7-ppf1kwi_9dnwXcwZVfgrfGA",
+	apiKey: "sk-proj-uEMr4FAwaNT87dUjQWU3T3BlbkFJ51FF6AW2iflUyoa5T6Dl",
 	authDomain: "smart-ide.firebaseapp.com",
 	projectId: "smart-ide",
 	storageBucket: "smart-ide.appspot.com",
